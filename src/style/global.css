@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020106;
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  overflow-x: hidden;
+}
+p,
+q {
+  color: rgba(255, 255, 255, 0.856);
+  font-family: "inter", sans-serif;
+}
+
+@layer components {
+  .container {
+    @apply max-w-[854px] mx-auto;
+  }
+}
+
+#banner {
+  background-image: url(images/banner/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* #bg {
+  background-image: url(images/hero/rectangle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+ */
+
+#service-1 {
+  background-image: url(images/services/services1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-2 {
+  background-image: url(images/services/services2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-3 {
+  background-image: url(images/services/services3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-4 {
+  background-image: url(images/services/services4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gradiantCard {
+  background: rgb(27, 5, 32);
+  background: linear-gradient(
+    337deg,
+    rgba(27, 5, 32, 1) 48%,
+    hsla(288, 85%, 24%, 0.664) 100%
+  );
+}
+
+
+
+
+.difuse {
+  background: rgb(27, 5, 32);
+  background: radial-gradient(
+    circle,
+    rgba(27, 5, 32, 0.603) 50%,
+    rgb(27, 5, 32) 80%
+  );
+/*   box-shadow: 0px 0px 100px 10px rgba(27, 5, 32, 0.733); */
+}

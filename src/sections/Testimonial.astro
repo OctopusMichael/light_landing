@@ -1,0 +1,36 @@
+---
+import testimonials from "../json/testimonials.json";
+---
+
+<section
+  class="h-[140vh] md:h-[300px] w-[90%]  md:w-full container my-[100px] p-5"
+>
+  <div class="relative h-full rounded-xl bg-[#1b0520] flex flex-col gap-5">
+    <h1 class="text-center mt-10 text-4xl">What our clients say</h1>
+    <p class="self-center mx-auto max-w-[500px] text-center">
+      See what our customer say about us. It really matter for us. How good or
+      bad we will make ir for evaluation to make EhyalLive better.
+    </p>
+    <div
+      class="md:absolute -bottom-[100px] flex md:flex-row flex-col justify-center items-center md:justify-between w-full p-4 gap-3"
+    >
+      {
+        testimonials.map((e) => (
+          <div class="text-[20px] md:text-[10px] w-[425px] md:w-[300px] h-auto rounded-xl  p-5 flex flex-col gap-4  gradiantCard hover:scale-110 duration-75 ease-in transition-all scale-95">
+            <h1 class="text-orange-500">
+              starstar<span class="text-white">star</span>
+            </h1>
+            <q class="text-[20px] md:text-[10px]">{e.quote}</q>
+            <div class="flex items-center gap-5">
+              <img class="h-[50px]" src={e.avatar} alt={e.name} />
+              <div class="flex flex-col">
+                <h1 class="">{e.name}</h1>
+                <h1 class="text-red-700">{e.email}</h1>
+              </div>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
