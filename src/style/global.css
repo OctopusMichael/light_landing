@@ -28,6 +28,35 @@ q {
   background-size: contain;
 }
 
+/* #bg {
+  background-image: url(images/hero/rectangle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+ */
+
+#service-1 {
+  background-image: url(../assets/services/services1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-2 {
+  background-image: url(../assets/services/services2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-3 {
+  background-image: url(../assets/services/services3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#service-4 {
+  background-image: url(../assets/services/services4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .gradiantCard {
   background: rgb(27, 5, 32);
   background: linear-gradient(
@@ -37,6 +66,9 @@ q {
   );
 }
 
+
+
+
 .difuse {
   background: rgb(27, 5, 32);
   background: radial-gradient(
@@ -44,5 +76,5 @@ q {
     rgba(27, 5, 32, 0.603) 50%,
     rgb(27, 5, 32) 80%
   );
-  /*   box-shadow: 0px 0px 100px 10px rgba(27, 5, 32, 0.733); */
+/*   box-shadow: 0px 0px 100px 10px rgba(27, 5, 32, 0.733); */
 }
