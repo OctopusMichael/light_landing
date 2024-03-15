@@ -19,12 +19,12 @@ const menu = [
 ];
 ---
 
-<nav class="flex justify-between p-5 items-center">
+<nav class="flex justify-between p-5 items-center container">
   <a href="#" class="font-bold">Light</a>
   <ul class="flex gap-[37px] items-center">
     {
       menu.map((e) => (
-        <li>
+        <li   class="hidden md:block"  >
           {e.id === 3 ? (
             <button class="bg-pink-500 p-3 rounded-lg"> {e.title} </button>
           ) : (
