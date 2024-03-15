@@ -15,7 +15,7 @@ q {
   color: rgba(255, 255, 255, 0.856);
   font-family: "inter", sans-serif;
 }
-h1{
+h1 {
   font-weight: bold;
 }
 
@@ -69,9 +69,6 @@ h1{
   );
 }
 
-
-
-
 .difuse {
   background: rgb(27, 5, 32);
   background: radial-gradient(
@@ -79,5 +76,23 @@ h1{
     rgba(27, 5, 32, 0.603) 50%,
     rgb(27, 5, 32) 80%
   );
-/*   box-shadow: 0px 0px 100px 10px rgba(27, 5, 32, 0.733); */
+  /*   box-shadow: 0px 0px 100px 10px rgba(27, 5, 32, 0.733); */
+}
+
+main {
+  background-image: url(../assets/lights/circle.png),
+    url(../assets/lights/circle.png), url(../assets/lights/circle.png);
+  background-position: 0px -150px, -200px 500px, 200px 600px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, contain, contain;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    background-image: url(../assets/lights/circle.png),
+      url(../assets/lights/circle.png), url(../assets/lights/circle.png);
+    background-position: 0px -1000px, -500px 0px, 500px 0px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: contain, contain, contain;
+  }
 }
