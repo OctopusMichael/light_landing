@@ -22,7 +22,7 @@ import testimonials from "../json/testimonials.json";
             </h1>
             <q class="text-[20px] md:text-[10px]">{e.quote}</q>
             <div class="flex items-center gap-5">
-              <img class="h-[50px]" src={e.avatar} alt={e.name} />
+              <img class="h-[50px] rounded-full w-[50px] object-cover" src={e.avatar} alt={e.name} />
               <div class="flex flex-col">
                 <h1 class="">{e.name}</h1>
                 <h1 class="text-red-700">{e.email}</h1>

@@ -1,5 +1,5 @@
 ---
-
+import users from "../json/users.json";
 ---
 
 <section class="flex flex-col md:flex-row justify-around p-5 relative">
@@ -20,24 +20,29 @@
     <div class="flex items-center relative">
       <div class="w-4/12 flex">
         <img
-          class="absolute w-[50px] h-[50px] top-0 left-0"
-          src="/images/users/user1.png"
-          alt="asd"
+          class="absolute w-[50px] h-[50px] rounded-full top-0 left-0 object-cover"
+          src={users[0].avatar}
+          alt={users[0].avatar}
         />
         <img
-          class="absolute w-[50px] h-[50px] top-0 left-[40px]"
-          src="images/users/user2.png"
-          alt=""
+          class="absolute w-[50px] h-[50px]  rounded-full top-0 left-[40px] object-cover"
+          src={users[1].avatar}
+          alt={users[1].avatar}
         />
         <img
-          class="absolute w-[50px] h-[50px] top-0 left-[80px]"
-          src="images/users/user3.png"
-          alt=""
+          class="absolute w-[50px] h-[50px] rounded-full top-0 left-[80px] object-cover"
+          src={users[2].avatar}
+          alt={users[2].avatar}
         />
         <img
-          class="absolute w-[50px] h-[50px] top-0 left-[120px]"
-          src="images/users/user4.png"
-          alt=""
+          class="absolute w-[50px] h-[50px] rounded-full top-0 left-[120px] object-cover"
+          src={users[3].avatar}
+          alt={users[3].avatar}
+        />
+        <img
+          class="absolute w-[50px] h-[50px] rounded-full top-0 left-[120px]"
+          src={users[4].avatar}
+          alt={users[4].avatar}
         />
       </div>
       <div class="flex items-center gap-5 ms-10 mt-3">
@@ -46,7 +51,9 @@
       </div>
     </div>
   </div>
-  <div class=" mt-[50px] md:mt-0 mx-auto md:mx-0 md:absolute md:right-0 md:top-[100px]">
+  <div
+    class="mt-[50px] md:mt-0 mx-auto md:mx-0 md:absolute md:right-0 md:top-[100px]"
+  >
     <div class="relative h-[500px] w-[400px] flex justify-center">
       <img class="absolute bottom-0" src="images/hero/rectangle.png" alt="" />
       <img class="absolute top-[70px]" src="images/hero/hero.png" alt="" />

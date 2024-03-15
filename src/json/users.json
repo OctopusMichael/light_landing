@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "avatar": "images/users/user1.jpg"
+  },
+  {
+    "id": 1,
+    "avatar": "images/users/user2.jpg"
+  },
+  {
+    "id": 2,
+    "avatar": "images/users/user3.jpg"
+  },
+  {
+    "id": 3,
+    "avatar": "images/users/user4.jpg"
+  },
+  {
+    "id": 4,
+    "avatar": "images/users/user5.jpg"
+  }
+]

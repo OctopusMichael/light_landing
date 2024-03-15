@@ -42,17 +42,17 @@ q {
   background-size: contain;
 }
 #service-2 {
-  background-image: url(images/services/services2.png);
+  background-image: url(../assets/services/services2.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 #service-3 {
-  background-image: url(images/services/services3.png);
+  background-image: url(../assets/services/services3.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
 #service-4 {
-  background-image: url(images/services/services4.png);
+  background-image: url(../assets/services/services4.png);
   background-repeat: no-repeat;
   background-size: contain;
 }

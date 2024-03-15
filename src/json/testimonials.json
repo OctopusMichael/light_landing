@@ -4,20 +4,20 @@
     "name": "Denny Hilguston",
     "email": "@denny.hill",
     "quote": "I know in real-time where the money is spent,and I don’t have to lend out the company’s credit cardanymore. What a relief!",
-    "avatar": "images/users/testimonial1.png"
+    "avatar": "images/users/user1.jpg"
   },
   {
     "id": 1,
     "name": "Vani Pandey",
     "email": "@vani.pandey",
     "quote": "VISUALS are much better. The improvements in optics and resolution and much more than a modern console generation leap.",
-    "avatar": "images/users/testimonial2.png"
+    "avatar": "images/users/user2.jpg"
   },
   {
     "id": 2,
     "name": "milly Singh",
     "email": "@milly.singh",
     "quote": "I can actually see the improvement in the graphics, not having the external sensors is a big plus.",
-    "avatar": "images/users/testimonial3.png"
+    "avatar": "images/users/user3.jpg"
   }
 ]
