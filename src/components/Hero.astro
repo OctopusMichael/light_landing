@@ -2,7 +2,7 @@
 import users from "../json/users.json";
 ---
 
-<section class="flex flex-col md:flex-row justify-around p-5 relative">
+<section class="flex flex-col md:flex-row  justify-around relative">
   <div class="md:w-6/12 flex flex-col gap-10 mt-[100px] md:absolute md:left-5">
     <h1 class="text-4xl font-bold">
       Let’s Explore <br /> Three-Dimensional <br /> visual
@@ -18,14 +18,14 @@ import users from "../json/users.json";
       </button>
     </div>
     <div class="flex items-center relative">
-      <div class="w-4/12 flex">
+      <div class="md:w-4/12 flex md:flex-row">
         <img
           class="absolute w-[50px] h-[50px] rounded-full top-0 left-0 object-cover"
           src={users[0].avatar}
           alt={users[0].avatar}
         />
         <img
-          class="absolute w-[50px] h-[50px]  rounded-full top-0 left-[40px] object-cover"
+          class="absolute w-[50px] h-[50px] rounded-full top-0 left-[40px] object-cover"
           src={users[1].avatar}
           alt={users[1].avatar}
         />
@@ -45,16 +45,14 @@ import users from "../json/users.json";
           alt={users[4].avatar}
         />
       </div>
-      <div class="flex items-center gap-5 ms-10 mt-3">
+      <div class="flex items-center gap-5 absolute right-4 top-4">
         <span class="w-3 h-3 rounded-full bg-white"></span>
-        <h1>400k people online</h1>
+        <h1 class="text-[12px]">400k people online</h1>
       </div>
     </div>
   </div>
-  <div
-    class="mt-[50px] md:mt-0 mx-auto md:mx-0 md:absolute md:right-0 md:top-[100px]"
-  >
-    <div class="relative h-[500px] w-[400px] flex justify-center">
+  <div class="mt-[50px] md:mt-0 md:absolute md:right-0 md:top-[100px]">
+    <div class="relative h-[500px] w-full md:w-[400px] flex justify-center">
       <img class="absolute bottom-0" src="images/hero/rectangle.png" alt="" />
       <img class="absolute top-[70px]" src="images/hero/hero.png" alt="" />
       <img

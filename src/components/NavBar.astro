@@ -21,10 +21,13 @@ const menu = [
 
 <nav class="flex justify-between p-5 items-center container">
   <a href="#" class="font-bold">Light</a>
-  <ul class="flex gap-[37px] items-center">
+  <button class="h-[30px] w-[30px]">
+    <img src="images/icons/menu.svg" alt="" />
+  </button>
+  <ul class="md:flex gap-[37px] items-center hidden">
     {
       menu.map((e) => (
-        <li   class="hidden md:block"  >
+        <li class="">
           {e.id === 3 ? (
             <button class="bg-pink-500 p-3 rounded-lg"> {e.title} </button>
           ) : (

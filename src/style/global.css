@@ -15,6 +15,9 @@ q {
   color: rgba(255, 255, 255, 0.856);
   font-family: "inter", sans-serif;
 }
+h1{
+  font-weight: bold;
+}
 
 @layer components {
   .container {
